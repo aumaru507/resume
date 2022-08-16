@@ -1,0 +1,45 @@
+.footer
+{
+  overflow: hidden;
+  position: sticky;
+  top: 100%;
+  background-color: #D3D3D3;
+  padding: 20px 10px;
+}
+
+
+h1
+{
+  font-size: 20px;
+}
+
+p
+{
+  color: #696969;
+  font-size: 14px;
+}
+
+.col-lg-6
+{
+  float: left;
+  max-width: 40%;
+  margin-right: 10px
+}
+
+a
+{
+  color: #696969;
+  text-decoration: none;
+  padding: 0px 10px;
+  font-size: 18;
+}
+
+a:hover
+{
+  color: #1E90FF;
+}
+
+i
+{
+  padding: 0px 10px;
+}

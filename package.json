@@ -1,6 +1,8 @@
 {
   "name": "setthanan",
   "version": "0.0.0",
+  "main": "dist/index",
+  "typings": "dist/index",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -19,7 +21,9 @@
     "@angular/platform-browser-dynamic": "^14.1.0",
     "@angular/router": "^14.1.0",
     "rxjs": "~7.5.0",
+    "t-writer.js": "^1.0.4",
     "tslib": "^2.3.0",
+    "typewriter-effect": "^2.19.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {

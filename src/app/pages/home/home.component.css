@@ -1,0 +1,44 @@
+.banner
+{
+  background-image: url('../../../assets/img/fnAu.jpg');
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner h1
+{
+  color: #6495ED;
+  font-size: 50;
+  font-weight: bold;
+  top: 50%;
+  left: 20%;
+  position: absolute;
+}
+.banner h2
+{
+  font-size: 50;
+  font-weight: bold;
+  top: 58%;
+  left: 20%;
+  position: absolute;
+}
+.banner p
+{
+  color: #696969;
+  font-size: 20;
+  font-weight: bold;
+  top: 65%;
+  left: 20%;
+  position: absolute;
+}
+
+.buton1
+{
+
+  font-size: 30;
+  top: 77%;
+  left: 20%;
+  position: absolute;
+}
+
