@@ -23,9 +23,14 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/aos/dist/aos.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/aos/dist/aos.js",
+              "src/assets/js/main.js",
+              "src/assets/js/swiper-bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -90,9 +95,14 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/aos/dist/aos.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/aos/dist/aos.js",
+              "src/assets/js/main.js",
+              "src/assets/js/swiper-bundle.min.js"
+            ]
           }
         }
       }

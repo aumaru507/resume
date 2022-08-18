@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import Typewriter from 't-writer.js'
-
+import {OrderDetailsService} from 'src/app/servicess/order-details.service';
+import Typewriter from 't-writer.js';
+import  AOS from 'aos';
 
 @Component({
   selector: 'app-home',
@@ -9,9 +10,14 @@ import Typewriter from 't-writer.js'
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor( private service:OrderDetailsService) { }
 
+  foodData:any;
   ngOnInit(): void{
+    AOS.init({
+      delay: 500,
+    });
+    this.foodData = this.service.foodDetails;
     const target = document.querySelector('.tw')
     const writer = new Typewriter(target, {
       loop: true,
@@ -30,11 +36,12 @@ export class HomeComponent implements OnInit {
       .remove(17)
       .type('A Developer')
       .rest(500)
-      .changeOps({ deleteSpeed: 20 })
+      .changeOps({ deleteSpeed: 80 })
       .remove(11)
       .type('A Web Designer')
       .rest(500)
       .clear()
       .start()
+
   }
 }

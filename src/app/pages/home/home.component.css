@@ -42,3 +42,34 @@
   position: absolute;
 }
 
+.stepBox
+{
+  background-color: #696969;
+  padding: 20px 20px;
+  border-radius: 5;
+  text-align: center;
+}
+
+
+
+.portfolio-flex
+{
+  text-align: center;
+  display: flex;
+  height: auto;
+}
+.portfolio-flex .left-box, .portfolio-flex .right-box
+{
+  width: 50%;
+}
+.portfolio-flex img
+{
+  width: 100%;
+}
+.portfolio-flex .left-box, .portfolio-flex .right-box
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}

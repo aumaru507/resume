@@ -1,0 +1,214 @@
+/*==================== NAV ====================*/
+
+
+/* show menu */
+
+
+/* Active link */
+
+
+/* Change background header */
+
+
+/*==================== HOME ====================*/
+.home_container{
+  gap: 1rem;
+}
+.home_content{
+  grid-template-columns: .5fr 3fr;
+  padding-top: 3.5rem;
+  align-items: center;
+}
+.home_blob{
+  width: 200px;
+  fill: var(--first-color);
+}
+.home_blob-img{
+  width: 150px;
+}
+.home_data{
+  grid-column: 1/3;
+}
+.home_title{
+  font-size: var(--big-font-size);
+}
+.home_subtitle{
+  font-size: var(--h3-font-size);
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-75);
+}
+.home_description{
+  margin-bottom: var(--mb-2 );
+}
+/*==================== BUTTONS ====================*/
+
+
+/*==================== ABOUT ====================*/
+.about_img{
+  width: 25%;
+  border-radius: .5rem;
+  justify-self: center;
+  align-self: center;
+
+}
+
+.about_description{
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+}
+
+.about_info{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2-5);
+}
+
+.about_info-title{
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
+.about_info-name{
+  font-size: var(--smaller-font-size);
+
+}
+
+.about_info-title , .about_info-name{
+  display: block;
+  text-align: center;
+}
+
+
+/*==================== SKILLS ====================*/
+.skills_container{
+  row-gap: 0;
+}
+.skills_header{
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-2-5);
+  cursor: pointer;
+}
+.skills_icon , .skills_arrow{
+  font-size: 2rem;
+  color: var(--first-color);
+}
+.skills_icon{
+  margin-right: var(--mb-0-75);
+}
+.skills_title{
+  font-size: var(--h3-font-size);
+}
+.skills_subtitle{
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+.skills_arrow{
+  margin-left: auto;
+  transition: .4s;
+}
+.skills_list{
+  row-gap: 1.5rem;
+  padding-left:2.7rem;
+}
+.skills_titles{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mb-0-5);
+}
+.skills_name{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+  /* bar */
+.skills_bar, .skills_percentage{
+  height: 5px;
+  border-radius: .25rem;
+}
+.skills_bar{
+  background-color: var(--first-color-lighter);
+}
+.skills_percentage{
+  display: block;
+  background-color: var(--first-color);
+}
+/* frontend */
+.skills_html{
+  width: 60%;
+}
+.skills_css{
+  width: 60%;
+}
+.skills_js{
+  width: 50%;
+}
+.skills_ts{
+  width: 60%;
+}
+/* backend */
+.skills_sql{
+  width: 60%;
+}
+.skills_php{
+  width: 50%;
+}
+.skills_py{
+  width: 60%;
+}
+
+.skills_close .skills_list{
+  height: 0;
+  overflow: hidden;
+}
+.skills_open .skills_list{
+  height: max-content;
+  margin-bottom: var(--mb-2-5);
+}
+.skills_open .skills_arrow{
+  transform: rotate(-180deg);
+}
+
+/*==================== QUALIFICATION ====================*/
+
+
+/*==================== SERVICES ====================*/
+
+
+/* Active Modal */
+
+
+/*==================== PORTFOLIO ====================*/
+
+
+/*==================== PROJECT IN MIND ====================*/
+
+
+/*==================== TESTIMONIAL ====================*/
+
+
+/*==================== CONTACT ME ====================*/
+
+
+/*==================== FOOTER ====================*/
+
+
+/*========== SCROLL UP ==========*/
+
+
+/* Show scroll */
+
+
+/*========== SCROLL BAR ==========*/
+
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+
+
+/* For medium devices */
+
+
+/* For large devices */
