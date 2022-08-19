@@ -1,3 +1,4 @@
+<script src="src/assets/js/main.js"></script>
 <p>about works!</p>
 <div class="home_img">
   <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -54,118 +55,107 @@
   </div>
 </section>
 
+<!-- ==================skills ================== -->
 <section class="skills section" id="skills">
-  <h2 class="section_title">skills</h2>
-  <span class="section_subtitle">My technical level</span>
-
-  <div class="skills_container container grid">
-    <div>
-      <div class="skills_content skills_open">
+<h2 class="section_title">Skills</h2>
+<span class="section_subtitle">My techical level</span>
+</section>
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
         <div class="skills_header">
+          <i class="bi bi-braces skills_icon"></i>
 
-          <i class="bi bi-braces skills_icon" style="margin-right: 20px"></i>
           <div>
             <h1 class="skills_title">Frontend developer</h1>
-            <span class="skills_subtitle">More than 4 Month</span>
-          </div>
-
-          <i class="bi bi-caret-down-fill skills_arrow"></i>
-        </div>
-
-        <div class="skills_list grid">
-
-          <div class="skills_data">
-            <div class="skills_titles">
-              <h3 class="skills_name">HTML</h3>
-              <span class="skills_number">60%</span>
-            </div>
-            <div class="skills_bar">
-              <span class="skills_percentage skills_html"></span>
-            </div>
-          </div>
-
-          <div class="skills_data">
-            <div class="skills_titles">
-              <h3 class="skills_name">CSS</h3>
-              <span class="skills_number">60%</span>
-            </div>
-            <div class="skills_bar">
-              <span class="skills_percentage skills_css"></span>
-            </div>
-          </div>
-
-          <div class="skills_data">
-            <div class="skills_titles">
-              <h3 class="skills_name">JavaScript</h3>
-              <span class="skills_number">50%</span>
-            </div>
-            <div class="skills_bar">
-              <span class="skills_percentage skills_js"></span>
-            </div>
-          </div>
-
-          <div class="skills_data">
-            <div class="skills_titles">
-              <h3 class="skills_name">TypeScript</h3>
-              <span class="skills_number">60%</span>
-            </div>
-            <div class="skills_bar">
-              <span class="skills_percentage skills_ts"></span>
-            </div>
+            <span class="skills_subtitle">More than 4 month</span>
           </div>
         </div>
-      </div>
-
-
-        <div class="sklls_content skills_close">
-            <div class="skills_header">
-
-              <i class="bi bi-server skills_icon" style="margin-right: 20px"></i>
-              <div>
-                <h1 class="skills_title">Backend developer</h1>
-                <span class="skills_subtitle">More than 4 Month</span>
-              </div>
-
-              <i class="bi bi-caret-down-fill skills_arrow"></i>
-            </div>
-
-            <div class="skills_list grid">
-
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">SQL</h3>
-                  <span class="skills_number">60%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_sql"></span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">PHP</h3>
-                  <span class="skills_number">50%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_php"></span>
-                </div>
-              </div>
-
-              <div class="skills_data">
-                <div class="skills_titles">
-                  <h3 class="skills_name">Python</h3>
-                  <span class="skills_number">60%</span>
-                </div>
-                <div class="skills_bar">
-                  <span class="skills_percentage skills_py"></span>
-                </div>
-              </div>
-            </div>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        HTML 60%
+        <div class="skills_bar">
+          <span class="skills_percentage skills_html"></span>
+        </div><br>
+        CSS 60%
+        <div class="skills_bar">
+          <span class="skills_percentage skills_css"></span>
+        </div><br>
+        JavaScript 50%
+        <div class="skills_bar">
+          <span class="skills_percentage skills_js"></span>
+        </div><br>
+        TypeScript 60%
+        <div class="skills_bar">
+          <span class="skills_percentage skills_ts"></span>
         </div>
-    </div>
-
-    <div>
-
     </div>
   </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        <div class="skills_header">
+          <i class="bi bi-server skills_icon" ></i>
+          <div>
+            <h1 class="skills_title">Backend developer</h1>
+            <span class="skills_subtitle">More than 4 month</span>
+          </div>
+        </div>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        SQL 60%
+        <div class="skills_bar">
+          <span class="skills_percentage skills_sql"></span>
+        </div><br>
+        PHP 50%
+        <div class="skills_bar">
+          <span class="skills_percentage skills_php"></span>
+        </div><br>
+        Python 60%
+        <div class="skills_bar">
+          <span class="skills_percentage skills_py"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Designer
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================QUALIFICATION============================ -->
+<section class="qualification section">
+    <h2 class="section_titile">Qualification</h2>
+    <span class="section_subtitle">My personal journey</span>
+
+    <div class="qualification_container container">
+      <div class="qualification_tabs">
+        <div class="qualification_button button--flex">
+          <i class="bi bi-mortarboard-fill" qualification_icon></i>
+          Education
+        </div>
+        <div class="qualification_button button--flex">
+          <i class="bi bi-briefcase-fill" qualification_icon></i>
+          work
+        </div>
+
+      </div>
+
+        <div class="qualification_sections">
+
+        </div>
+    </div>
+
 </section>

@@ -28,8 +28,9 @@
             ],
             "scripts": [
               "node_modules/aos/dist/aos.js",
-              "src/assets/js/main.js",
-              "src/assets/js/swiper-bundle.min.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/main.js"
+
             ]
           },
           "configurations": {
@@ -100,8 +101,9 @@
             ],
             "scripts": [
               "node_modules/aos/dist/aos.js",
-              "src/assets/js/main.js",
-              "src/assets/js/swiper-bundle.min.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/main.js"
+
             ]
           }
         }
