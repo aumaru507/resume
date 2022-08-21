@@ -32,16 +32,46 @@
   left: 20%;
   position: absolute;
 }
-
-.buton1
+.bannerA{
+  text-decoration: none;
+  background: #6495ED;
+  width: 150px;
+  padding: 1rem;
+  color: #fff;
+  margin: 0 auto;
+}
+.bannerB{
+  text-decoration: none;
+  background: #fff;
+  width: 150px;
+  padding: 1rem;
+  color: #6495ED;
+  margin: 0 auto;
+}
+.bannerA:hover{
+  color: #696969;
+}
+.bannerB:hover{
+  color: #696969;
+}
+.about p {
+  font-size: larger;
+}
+/* .buton1
 {
 
   font-size: 30;
   top: 77%;
   left: 20%;
   position: absolute;
+} */
+.qualification_rounder{
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--first-color);
+  border-radius: 50%;
 }
-
 .stepBox
 {
   background-color: #696969;
@@ -49,6 +79,52 @@
   border-radius: 5;
   text-align: center;
 }
+
+.container1
+{
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  min-height: 200px;
+  background: #E6E6FA;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.container1 .left_Side
+{
+  position: relative;
+  background: #6495ED;
+  padding: 40px;
+}
+.container1 .right_Side
+{
+  position: relative;
+  background: #E6E6FA;
+  padding: 40px;
+}
+.profilrText{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profilrText h2{
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+.profilrText h2 span{
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+
 
 
 
