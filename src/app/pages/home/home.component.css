@@ -65,6 +65,15 @@
   left: 20%;
   position: absolute;
 } */
+.button1{
+  margin: auto;
+  margin-top: 5px;
+  margin-left: 35%;
+  /* top: 50%;
+  left: 20%;
+  position: absolute; */
+}
+
 .qualification_rounder{
   display: inline-block;
   width: 13px;
@@ -148,4 +157,27 @@
   flex-direction: column;
   justify-content: center;
   padding: 3rem;
+}
+
+.contact_h{
+  text-align: center;
+  margin-top: 20px;
+}
+.about_info{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2-5);
+  text-align: center;
+}
+
+.about_bibi{
+    font-size: 35px;
+    font-weight: var(--font-medium);
+    color: #6495ED;
+}
+.about_info-title{
+    font-weight: bold;
+}
+.Map{
+  margin-top: 20px;
 }
