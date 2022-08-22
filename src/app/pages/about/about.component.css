@@ -1,6 +1,12 @@
 /*==================== NAV ====================*/
 
-
+.banner
+{
+  background-image: url('../../../assets/img/fnAu.jpg');
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
 /* show menu */
 
 

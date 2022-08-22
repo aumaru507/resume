@@ -5,7 +5,13 @@
   background-position: center;
   background-size: cover;
 }
-
+.a_section
+{
+  top: 77%;
+  left: 20%;
+  position: absolute;
+  z-index: 2;
+}
 .banner h1
 {
   color: #6495ED;
