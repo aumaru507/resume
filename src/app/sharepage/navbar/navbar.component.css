@@ -1,6 +1,6 @@
 .navbar{
   position: fixed;
-  width: 1400px;
+  width: 100%;
   z-index: 5;
 }
 

@@ -1,3 +1,17 @@
+.srction1{
+  text-align: center;
+}
+.srction2{
+  text-align: center;
+}
+.srction3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.srction4{
+  text-align: center;
+  margin-bottom: 20px;
+}
 /*==================== NAV ====================*/
 
 .banner
@@ -6,6 +20,21 @@
   height: 600px;
   background-position: center;
   background-size: cover;
+}
+.banner h1 , .banner h3{
+  top: 50%;
+  left: 20%;
+  position: absolute;
+}
+.banner h3{
+  top: 58%;
+  left: 20%;
+  position: absolute;
+}
+.banner p {
+  top: 65%;
+  left: 20%;
+  position: absolute;
 }
 /* show menu */
 

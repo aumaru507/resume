@@ -62,29 +62,21 @@
 }
 .about p {
   font-size: larger;
+  margin-bottom: 20px;
 }
-/* .buton1
-{
 
-  font-size: 30;
-  top: 77%;
-  left: 20%;
-  position: absolute;
-} */
 .button1{
   margin: auto;
   margin-top: 5px;
   margin-left: 35%;
-  /* top: 50%;
-  left: 20%;
-  position: absolute; */
+
 }
 
 .qualification_rounder{
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: var(--first-color);
+  background-color: #6495ED;
   border-radius: 50%;
 }
 .stepBox
@@ -96,10 +88,10 @@
 }
 
 .container1
-{
+{ z-index: 6;
   position: relative;
   width: 100%;
-  max-width: 1400px;
+  max-width: 100%;
   min-height: 200px;
   background: #E6E6FA;
   display: grid;
@@ -116,8 +108,11 @@
 .container1 .right_Side
 {
   position: relative;
-  background: #E6E6FA;
+  background: #fff;
   padding: 40px;
+}
+.text-center{
+  margin-bottom: 40px;
 }
 .profilrText{
   position: relative;
@@ -169,6 +164,7 @@
   text-align: center;
   margin-top: 20px;
 }
+
 .about_info{
   display: flex;
   justify-content: space-evenly;
