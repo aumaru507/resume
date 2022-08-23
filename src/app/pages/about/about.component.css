@@ -21,17 +21,30 @@
   background-position: center;
   background-size: cover;
 }
-.banner h1 , .banner h3{
+.banner h1
+{
+  color: #0A6C8B;
+  font-size: 50;
+  font-weight: bold;
   top: 50%;
   left: 20%;
   position: absolute;
+  font-family:Baskervville;
 }
-.banner h3{
+.banner h2
+{
+  font-size: 50;
+  font-weight: bold;
   top: 58%;
   left: 20%;
   position: absolute;
+  font-family:Baskervville;
 }
-.banner p {
+.banner p
+{
+  color: #696969;
+  font-size: 20;
+  font-weight: bold;
   top: 65%;
   left: 20%;
   position: absolute;
@@ -117,6 +130,11 @@
 
 
 /*==================== SKILLS ====================*/
+.accordion{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .skills_container{
   row-gap: 0;
 }
@@ -128,7 +146,7 @@
 }
 .skills_icon , .skills_arrow{
   font-size: 2rem;
-  color: var(--first-color);
+  color: #0A6C8B;
 }
 .skills_icon{
   margin-right: var(--mb-0-75);
@@ -159,16 +177,8 @@
 }
 
   /* bar */
-.skills_bar, .skills_percentage{
-  height: 5px;
-  border-radius: .25rem;
-}
-.skills_bar{
-  background-color: var(--first-color-lighter);
-}
-.skills_percentage{
-  display: block;
-  background-color: var(--first-color);
+.progress-bar.bg-success{
+  background-color:#0A6C8B!important;
 }
 /* frontend */
 .skills_html{
@@ -208,9 +218,7 @@
   font-weight: var(--font-medium);
   cursor: pointer;
 }
-.qualification_button:hover{
-  color: var(--first-color);
-}
+
 .qualification_icon{
   font-size: 1.8rem;
   margin-right: var(--mb-0-25);
@@ -238,14 +246,14 @@
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: var(--first-color);
+  background-color:  #0A6C8B;
   border-radius: 50%;
 }
 .qualification_line{
   display:block;
   width: 1px;
   height: 100%;
-  background-color: var(--first-color);
+  background-color:  #0A6C8B;
   transform: translate(6px, -7px);
 }
 

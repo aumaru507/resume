@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
       loop: true,
       typeSpeed: 80,
       deleteSpeed: 80,
-      typeColor: 'CornflowerBlue'
+      typeColor: '#0A6C8B'
     })
 
     writer

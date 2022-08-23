@@ -2,9 +2,11 @@
 {
   background-image: url('../../../assets/img/fnAu.jpg');
   height: 600px;
+  width: 100%;
   background-position: center;
   background-size: cover;
 }
+
 .a_section
 {
   top: 77%;
@@ -14,12 +16,13 @@
 }
 .banner h1
 {
-  color: #6495ED;
+  color: #0A6C8B;
   font-size: 50;
   font-weight: bold;
   top: 50%;
   left: 20%;
   position: absolute;
+  font-family:Baskervville;
 }
 .banner h2
 {
@@ -28,6 +31,7 @@
   top: 58%;
   left: 20%;
   position: absolute;
+  font-family:Baskervville;
 }
 .banner p
 {
@@ -40,7 +44,7 @@
 }
 .bannerA{
   text-decoration: none;
-  background: #6495ED;
+  background: #0A6C8B;
   width: 150px;
   padding: 1rem;
   color: #fff;
@@ -51,18 +55,25 @@
   background: #fff;
   width: 150px;
   padding: 1rem;
-  color: #6495ED;
+  color: #0A6C8B;
   margin: 0 auto;
 }
+.profilrText{
+  font-family:Baskervville;
+}
 .bannerA:hover{
-  color: #696969;
+  color: black;
 }
 .bannerB:hover{
-  color: #696969;
+  color: black;
 }
 .about p {
-  font-size: larger;
+  font-size: 1.5rem;
+  margin-top: 20px;
   margin-bottom: 20px;
+}
+.about{
+  font-family: 'Noto Serif Thai';
 }
 
 .button1{
@@ -76,7 +87,7 @@
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: #6495ED;
+  background-color: #0A6C8B;
   border-radius: 50%;
 }
 .stepBox
@@ -102,7 +113,7 @@
 .container1 .left_Side
 {
   position: relative;
-  background: #6495ED;
+  background: #0A6C8B;
   padding: 40px;
 }
 .container1 .right_Side
@@ -175,7 +186,7 @@
 .about_bibi{
     font-size: 35px;
     font-weight: var(--font-medium);
-    color: #6495ED;
+    color: #0A6C8B;
 }
 .about_info-title{
     font-weight: bold;
