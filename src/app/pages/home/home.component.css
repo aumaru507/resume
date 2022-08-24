@@ -15,18 +15,18 @@
 
 .a_section
 {
-  top: 77%;
-  left: 20%;
+  top: 62%;
+  left: 18%;
   position: absolute;
-  z-index: 2;
+
 }
 .banner h1
 {
   color: #0A6C8B;
   font-size: 50;
   font-weight: bold;
-  top: 50%;
-  left: 20%;
+  top: 35%;
+  left: 16%;
   position: absolute;
   font-family:Baskervville;
 }
@@ -34,8 +34,8 @@
 {
   font-size: 50;
   font-weight: bold;
-  top: 58%;
-  left: 20%;
+  top: 43%;
+  left: 17%;
   position: absolute;
   font-family:Baskervville;
 }
@@ -44,26 +44,16 @@
   color: #696969;
   font-size: 20;
   font-weight: bold;
-  top: 65%;
-  left: 20%;
+  top: 50%;
+  left: 15%;
   position: absolute;
 }
-.bannerA{
-  text-decoration: none;
-  background: #0A6C8B;
-  width: 150px;
-  padding: 1rem;
-  color: #fff;
-  margin: 0 auto;
-}
-.bannerB{
-  text-decoration: none;
+
+.btn.btn-primaryPort{
   background: #fff;
-  width: 150px;
-  padding: 1rem;
-  color: #0A6C8B;
-  margin: 0 auto;
+  color: #0A6C8B!important;
 }
+
 
 .profilrText{
   font-family:Baskervville;
