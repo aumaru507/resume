@@ -1,10 +1,16 @@
 .banner
 {
   background-image: url('../../../assets/img/fnAu.jpg');
-  height: 600px;
+  height: 800px;
   width: 100%;
-  background-position: center;
-  background-size: cover;
+   /* Set a specific height */
+    min-height: 500px;
+
+   /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .a_section
@@ -58,6 +64,7 @@
   color: #0A6C8B;
   margin: 0 auto;
 }
+
 .profilrText{
   font-family:Baskervville;
 }
@@ -147,8 +154,6 @@
 
 
 
-
-
 .portfolio-flex
 {
   text-align: center;
@@ -191,6 +196,61 @@
 .about_info-title{
     font-weight: bold;
 }
+
+.btn.btn{
+  color: #fff;
+}
+.btn-group{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.skills_header{
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-2-5);
+  cursor: pointer;
+}
+.skills_icon , .skills_arrow{
+  font-size: 2rem;
+  color: #0A6C8B;
+}
+  /* bar */
+  .progress-bar.bg-success{
+    background-color:#0A6C8B!important;
+  }
+  /* frontend */
+  .skills_html{
+    width: 60%;
+  }
+  .skills_css{
+    width: 60%;
+  }
+  .skills_js{
+    width: 50%;
+  }
+  .skills_ts{
+    width: 60%;
+  }
+  /* backend */
+  .skills_sql{
+    width: 60%;
+  }
+  .skills_php{
+    width: 50%;
+  }
+  .skills_py{
+    width: 60%;
+  }
+  .skills_node{
+    width: 40%;
+  }
+
+/*======================================= contact  =======================================*/
 .Map{
   margin-top: 20px;
+}
+.img1{
+  width: 50%;
+  margin: auto;
 }
