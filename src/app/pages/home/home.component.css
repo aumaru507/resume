@@ -55,6 +55,8 @@
 }
 
 
+
+
 .profilrText{
   font-family:Baskervville;
 }
@@ -72,6 +74,10 @@
 .about{
   font-family: 'Noto Serif Thai';
 }
+
+
+
+
 
 .button1{
   margin: auto;
@@ -113,11 +119,16 @@
 
 
 
-
-
 .contact_h{
   text-align: center;
   margin-top: 20px;
+}
+
+.card.mb-3ab{
+  margin-bottom: -16px!important;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 3%;
 }
 
 .about_info{
@@ -142,6 +153,7 @@
 .btn-group{
   margin-left: 30%;
   margin-right: 30%;
+  margin-top: 5%;
 }
 
 .skills_header{
@@ -186,10 +198,13 @@
   }
 
   /* =========================================services=========================================== */
-  .services{
-    text-align: center;
-  }
+.services{
 
+}
+.services2{
+    text-align: center;
+    margin-top: 5%;
+}
 
 /*======================================= contact  =======================================*/
 .Map{
