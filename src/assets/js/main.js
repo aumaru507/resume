@@ -8,3 +8,9 @@ function scrollFunction() {
   }
 }
 
+// ============================ pro ============================================
+$(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);

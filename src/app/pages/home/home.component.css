@@ -116,8 +116,49 @@
 
 
 
+.mat-tab-group{
+  background-color: #0A6C8B;
+  width: 984px;
 
 
+}
+.mat-tab-group h1,.mat-tab-group p{
+  font-family:Baskervville;
+  color: #FFF;
+}
+.mat-tab-group i{
+  color: #FFF;
+}
+
+.ab {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 40px;
+  text-indent: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.abb {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  text-indent: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ap {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-indent: 20px;
+}
+
+.accordion-button.collapsed{
+  background-color: #0A6C8B;
+}
+.accordion-item{
+  background-color: #0A6C8B;
+}
 
 .contact_h{
   text-align: center;
@@ -168,7 +209,7 @@
 }
   /* bar */
   .progress-bar.bg-success{
-    background-color:#0A6C8B!important;
+    background-color:#696969!important;
   }
   /* frontend */
   .skills_html{
@@ -197,20 +238,89 @@
     width: 40%;
   }
 
-  /* =========================================services=========================================== */
-.services{
+  .Ed h4{
+    margin-top: 20px;
+  }
 
-}
+  /* =========================================services=========================================== */
+
 .services2{
     text-align: center;
     margin-top: 5%;
 }
 
-/*======================================= contact  =======================================*/
-.Map{
-  margin-top: 20px;
+/*======================================= portfolio   =======================================*/
+.portimg{
+  display: block;
+  width: 100%;
+  height: auto;
 }
-.img1{
-  width: 50%;
-  margin: auto;
+
+.image1 {
+  position: relative;
+  width: 300px;
+
 }
+
+
+.image {
+  position: relative;
+  width: 300px;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+  background: #009578;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.image__description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
+
+
+

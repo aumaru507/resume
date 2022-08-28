@@ -9,8 +9,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-
+import { MatSliderModule } from '@angular/material/slider';
+import {MatTabsModule} from '@angular/material/tabs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,9 +25,14 @@ import { ContactComponent } from './pages/contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
+
+
 })
 export class AppModule { }
