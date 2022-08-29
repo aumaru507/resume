@@ -13,38 +13,45 @@
     background-size: cover;
 }
 
+
+
+
+
+
 .a_section
 {
-  top: 62%;
+  top: 72%;
   left: 18%;
   position: absolute;
+  font-family: 'Oswald', sans-serif;
 
 }
 .banner h1
 {
   color: #0A6C8B;
-  font-size: 50;
+  font-size: 60px;
   font-weight: bold;
   top: 35%;
-  left: 16%;
+  left: 15%;
   position: absolute;
-  font-family:Baskervville;
+  font-family: 'Aboreto', cursive;
+
 }
 .banner h2
 {
-  font-size: 50;
+  font-size: 60px;
   font-weight: bold;
-  top: 43%;
-  left: 17%;
+  top: 47%;
+  left: 16%;
   position: absolute;
-  font-family:Baskervville;
+  font-family: 'Aboreto', cursive;
 }
 .banner p
 {
   color: #696969;
-  font-size: 20;
+  font-size: 16px;
   font-weight: bold;
-  top: 50%;
+  top: 55%;
   left: 15%;
   position: absolute;
 }
@@ -52,9 +59,12 @@
 .btn.btn-primaryPort{
   background: #fff;
   color: #0A6C8B!important;
+  margin-left: 10px;
 }
 
-
+.mat-tab-label, .mat-tab-link{
+  color: #000!important;
+}
 
 
 .profilrText{
@@ -71,10 +81,14 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.about{
-  font-family: 'Noto Serif Thai';
-}
 
+.qualification_rounder{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #FFF;
+  border-radius: 50%;
+}
 
 
 
@@ -86,13 +100,7 @@
 
 }
 
-.qualification_rounder{
-  display: inline-block;
-  width: 13px;
-  height: 13px;
-  background-color: #0A6C8B;
-  border-radius: 50%;
-}
+
 .stepBox
 {
   background-color: #696969;
@@ -123,7 +131,7 @@
 
 }
 .mat-tab-group h1,.mat-tab-group p{
-  font-family:Baskervville;
+  font-family: 'Oswald', sans-serif;
   color: #FFF;
 }
 .mat-tab-group i{
@@ -134,7 +142,15 @@
   margin-left: 20px;
   margin-right: 20px;
   font-size: 40px;
-  text-indent: 40px;
+  text-indent: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.abh {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 40px;
+  text-indent: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -142,11 +158,17 @@
   margin-left: 20px;
   margin-right: 20px;
   font-size: 30px;
-  text-indent: 40px;
+  text-indent: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 .ap {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-indent: 20px;
+}
+.aph {
   margin-left: 20px;
   margin-right: 20px;
   font-size: 20px;
@@ -179,6 +201,8 @@
   text-align: center;
 }
 
+
+
 .about_bibi{
     font-size: 35px;
     font-weight: var(--font-medium);
@@ -209,7 +233,7 @@
 }
   /* bar */
   .progress-bar.bg-success{
-    background-color:#696969!important;
+    background-color:#87CEFA!important;
   }
   /* frontend */
   .skills_html{
@@ -247,6 +271,8 @@
 .services2{
     text-align: center;
     margin-top: 5%;
+    font-family: 'Aboreto', cursive;
+    font-size: 40px;
 }
 
 /*======================================= portfolio   =======================================*/
@@ -256,16 +282,16 @@
   height: auto;
 }
 
-.image1 {
-  position: relative;
-  width: 300px;
+
+.col-md-6{
+  margin-bottom: 30px;
 
 }
 
-
 .image {
   position: relative;
-  width: 300px;
+  width: 600px;
+  margin: auto;
 }
 
 .image__img {
@@ -295,7 +321,7 @@
 }
 
 .image__overlay--primary {
-  background: #009578;
+  background: #0A6C8B;
 }
 
 .image__overlay > * {
@@ -321,6 +347,42 @@
   margin-top: 0.25em;
 }
 
+.latest{
+  font-family: 'Aboreto', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
 
 
 
+@media (max-width: 800px) {
+  .banner h1 {
+        font-size: 30px;
+        top: 40%;
+      }
+
+      .banner h2{
+      font-size: 28px;
+      }
+      .image{
+        width: 320px;
+      }
+
+      .abh {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 30px;
+        text-indent: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      .aph {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        text-indent: 20px;
+      }
+    }

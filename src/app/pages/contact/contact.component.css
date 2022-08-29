@@ -8,6 +8,13 @@
 .contact_h{
   text-align: center;
   margin-top: 20px;
+  font-family: 'Aboreto', cursive;
+}
+.h_con{
+  font-size: 40px;
+  font-family: 'Aboreto', cursive;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .about_info{
@@ -24,4 +31,10 @@
 }
 .about_info-title{
     font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .about_info-name{
+    font-size: 12px;
+  }
 }
