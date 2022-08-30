@@ -1,7 +1,7 @@
 .banner
 {
   background-image: url('../../../assets/img/pexels-johannes-plenio-1103970.jpg');
-  height: 800px;
+  height: 1000px;
   width: 100%;
    /* Set a specific height */
     min-height: 500px;
@@ -16,7 +16,10 @@
 
 
 
-
+.youtube{
+  margin-left: 20px;
+  margin-top: 20px;
+}
 
 .a_section
 {
@@ -28,7 +31,7 @@
 }
 .banner h1
 {
-  color: #0A6C8B;
+  color: #f36c60;
   font-size: 60px;
   font-weight: bold;
   top: 35%;
@@ -125,17 +128,17 @@
 
 
 .mat-tab-group{
-  background-color: #0A6C8B;
+  background-color: #f36c60;
   width: 984px;
 
 
 }
 .mat-tab-group h1,.mat-tab-group p{
   font-family: 'Oswald', sans-serif;
-  color: #FFF;
+  color: #000;
 }
 .mat-tab-group i{
-  color: #FFF;
+  color: #000;
 }
 
 .ab {
@@ -176,10 +179,10 @@
 }
 
 .accordion-button.collapsed{
-  background-color: #0A6C8B;
+  background-color: #f36c60;
 }
 .accordion-item{
-  background-color: #0A6C8B;
+  background-color: #f36c60;
 }
 
 .contact_h{
@@ -206,7 +209,7 @@
 .about_bibi{
     font-size: 35px;
     font-weight: var(--font-medium);
-    color: #0A6C8B;
+    color: #f36c60;
 }
 .about_info-title{
     font-weight: bold;
@@ -229,7 +232,7 @@
 }
 .skills_icon , .skills_arrow{
   font-size: 2rem;
-  color: #0A6C8B;
+  color: #f36c60;
 }
   /* bar */
   .progress-bar.bg-success{
@@ -321,7 +324,7 @@
 }
 
 .image__overlay--primary {
-  background: #0A6C8B;
+  background: #f36c60;
 }
 
 .image__overlay > * {

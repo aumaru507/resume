@@ -13,6 +13,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSliderModule } from '@angular/material/slider';
 import {MatTabsModule} from '@angular/material/tabs';
+import { HttpClientModule } from '@angular/common/http';
+import { YouTubePlayerModule } from "@angular/youtube-player";
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,13 +26,18 @@ import {MatTabsModule} from '@angular/material/tabs';
     MenuComponent,
     AboutComponent,
     ContactComponent
+
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    MatTabsModule
+    MatTabsModule,
+    YouTubePlayerModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,6 +3,7 @@ import {OrderDetailsService} from 'src/app/servicess/order-details.service';
 import Typewriter from 't-writer.js';
 import  AOS from 'aos';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -24,7 +25,7 @@ export class HomeComponent implements OnInit {
       loop: true,
       typeSpeed: 80,
       deleteSpeed: 80,
-      typeColor: '#0A6C8B'
+      typeColor: '#f36c60'
     })
 
     writer
