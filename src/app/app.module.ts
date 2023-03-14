@@ -15,7 +15,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import {MatTabsModule} from '@angular/material/tabs';
 import { HttpClientModule } from '@angular/common/http';
 import { YouTubePlayerModule } from "@angular/youtube-player";
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -36,7 +36,9 @@ import { YouTubePlayerModule } from "@angular/youtube-player";
     MatSliderModule,
     MatTabsModule,
     YouTubePlayerModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
 
   ],
   providers: [],

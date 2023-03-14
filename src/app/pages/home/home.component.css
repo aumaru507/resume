@@ -37,7 +37,7 @@
   top: 35%;
   left: 15%;
   position: absolute;
-  font-family: 'Aboreto', cursive;
+  font-family: 'Lora', serif;
 
 }
 .banner h2
@@ -47,7 +47,7 @@
   top: 47%;
   left: 16%;
   position: absolute;
-  font-family: 'Aboreto', cursive;
+  font-family: 'Lora', serif;
 }
 .banner p
 {
@@ -61,7 +61,7 @@
 
 .btn.btn-primaryPort{
   background: #fff;
-  color: #0A6C8B!important;
+  color: #f36c60!important;
   margin-left: 10px;
 }
 
@@ -71,7 +71,7 @@
 
 
 .profilrText{
-  font-family:Baskervville;
+  font-family: 'Bebas Neue', cursive;
 }
 .bannerA:hover{
   color: black;
@@ -134,7 +134,7 @@
 
 }
 .mat-tab-group h1,.mat-tab-group p{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Bebas Neue', cursive;
   color: #000;
 }
 .mat-tab-group i{
@@ -168,8 +168,11 @@
 .ap {
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 30px;
   text-indent: 20px;
+
 }
 .aph {
   margin-left: 20px;
@@ -236,7 +239,7 @@
 }
   /* bar */
   .progress-bar.bg-success{
-    background-color:#87CEFA!important;
+    background-color:#696969!important;
   }
   /* frontend */
   .skills_html{

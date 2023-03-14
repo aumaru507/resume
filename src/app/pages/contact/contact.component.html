@@ -45,37 +45,40 @@
   </div>
 
 
-      <form class="row g-3">
+
+
+          <form class="row g-3" [formGroup]="nodeMailerForm" (ngSubmit)="onSubmit(nodeMailerForm.value)">
         <div class="col-md-4">
           <label for="validationDefault01" class="form-label">First Name</label>
-          <input type="text" class="form-control" id="validationDefault01"  required>
+          <input type="text" class="form-control"   formControlName="UserFirstName" required>
         </div>
         <div class="col-md-4">
           <label for="validationDefault02" class="form-label">Last Name</label>
-          <input type="text" class="form-control" id="validationDefault02"  required>
+          <input type="text" class="form-control"   formControlName="UserLastName"required>
         </div>
         <div class="col-md-4">
           <label for="validationDefaultUsername" class="form-label">Email</label>
           <div class="input-group">
             <span class="input-group-text" id="inputGroupPrepend2">@</span>
-            <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+            <input type="text" class="form-control"  formControlName="UserEmail"required>
           </div>
         </div>
         <div class="col-md-4">
           <label for="validationDefault03" class="form-label">Phone</label>
-          <input type="text" class="form-control" id="validationDefault03" required>
+          <input type="text" class="form-control"   formControlName="UserPhone"required>
         </div>
 
         <div class="col-md-4">
           <label for="validationDefault05" class="form-label">Message</label>
-          <input type="text" class="form-control" id="validationDefault05" required>
+          <input type="text" class="form-control"   formControlName="UserMessage"required>
         </div>
 
         <div class="col-12">
-          <button class="btn btn" type="submit" style="background-color: #f36c60">Submit form</button>
+          <button class="btn btn" type="submit"(click)="sendMail()" style="background-color: #f36c60">Submit form</button>
         </div>
-        <img class="img1" src=" ../../../../../assets/img/contact.png" />
+              <img class="img1" src=" ../../../../../assets/img/contact.png" />
       </form>
+
 
     </div>
   </div>
